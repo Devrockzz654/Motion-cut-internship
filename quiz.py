@@ -13,11 +13,22 @@ class Quiz:
 
     def check_answer(self, question_number, user_answer):
         correct_answer = self.questions[question_number]['answer']
-        if user_answer.lower() == correct_answer.lower():
-            self.score += 1
-            print("Correct!")
-        else:
-            print("Incorrect!")
+        options = self.questions[question_number]['options']
+        
+        # Ensure user_answer is an integer and within the range of options
+        try:
+            user_answer_index = int(user_answer) - 1
+            if 0 <= user_answer_index < len(options):
+                selected_option = options[user_answer_index]
+                if selected_option.lower() == correct_answer.lower():
+                    self.score += 1
+                    print("Correct!")
+                else:
+                    print("Incorrect!")
+            else:
+                print("Invalid answer number!")
+        except ValueError:
+            print("Please enter a valid number.")
 
     def run_quiz(self):
         print("Welcome to the Quiz Game!")
