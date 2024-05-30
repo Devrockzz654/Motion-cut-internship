@@ -89,7 +89,17 @@ questions = [
 ]
 ```
 
-Sure, here's a README file for your Word Counter program:
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Inspired by simple quiz games and tutorials online.
 
 ---
 
@@ -180,5 +190,3 @@ if __name__ == "__main__":
 This project is licensed under the MIT License.
 
 ---
-
-This README file provides a comprehensive overview of the program, how to use it, and an explanation of the code. It also includes an example of how the program works.
