@@ -190,3 +190,86 @@ if __name__ == "__main__":
 This project is licensed under the MIT License.
 
 ---
+
+# Expense Tracker
+
+## Overview
+
+Expense Tracker is a simple Python application that helps you keep track of your expenses. You can add, view, and delete expenses across various categories. The application also saves your expense data to a file, allowing you to maintain a record of your spending across sessions.
+
+## Features
+
+- Add new expenses to various categories.
+- View a summary of all expenses and the total amount spent.
+- Delete expenses by category.
+- Data persistence through JSON file storage.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+
+### Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/expense-tracker.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd expense-tracker
+    ```
+
+### Usage
+
+Run the `main.py` script to start the Expense Tracker application:
+
+```sh
+python main.py
+```
+
+Follow the on-screen prompts to interact with the application:
+1. Add Expense: Enter the category and amount to add a new expense.
+2. View Expenses: Display a summary of all expenses and the total amount spent.
+3. Delete Expense: Remove an expense by entering its category.
+4. Quit: Exit the application.
+
+### Example
+
+```sh
+1. Add Expense
+2. View Expenses
+3. Delete Expense
+4. Quit
+Enter your choice: 1
+Enter expense category: Food
+Enter expense amount: 50.75
+Expense added successfully.
+```
+
+## Code Structure
+
+- `main.py`: The main script to run the Expense Tracker application.
+- `expense_tracker.py`: Contains the `ExpenseTracker` class with methods to add, view, and delete expenses.
+- `expenses.json`: JSON file used to store expense data persistently.
+
+## Contributing
+
+Contributions are welcome! Please open an issue to discuss what you would like to change or add.
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or suggestions, feel free to contact me at [sudebkumar2378@gmail.com]
+
+---
